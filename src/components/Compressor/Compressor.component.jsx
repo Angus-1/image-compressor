@@ -1,7 +1,7 @@
 import React from 'react'
 import CircularSlider from '@fseehawer/react-circular-slider';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './style.css';
+import './CompressorStyle.css';
 
 import Card from "react-bootstrap/Card";
 var style={

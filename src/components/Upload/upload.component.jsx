@@ -1,7 +1,7 @@
 import React from "react";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './style.css';
+import './UploadStyle.css';
 import Card from "react-bootstrap/Card";
 var style={
   backgroundColor: "#1a1c20",
@@ -28,7 +28,7 @@ const Upload= (props)=>{
                   id="icons"
                   className="ht"
                   variant="top"
-                  src="https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image.png"
+                  src="placeholder-image.png"
                 ></Card.Img>
               )}
                {props.originalImage ? (

@@ -1,9 +1,10 @@
 import React, {useState} from "react";
 import CircularSlider from '@fseehawer/react-circular-slider';
-import  Upload from"./components/Upload.component";
-import  Compressor from"./components/Compressor.component";
-import  Footer from"./components/Footer.component";
+import  Upload from"./components/Upload/upload.component";
+import  Compressor from"./components/Compressor/Compressor.component";
+import  Footer from"./components/Footer/Footer.component";
 import imageCompression from "browser-image-compression";
+
 import"./App.css";
 class App extends React.Component {
   constructor() {
