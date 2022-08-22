@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import CircularSlider from '@fseehawer/react-circular-slider';
 import  Upload from"./components/Upload.component";
 import  Compressor from"./components/Compressor.component";
-import  Header from"./components/Header.component";
+import  Footer from"./components/Footer.component";
 import imageCompression from "browser-image-compression";
 import"./App.css";
 class App extends React.Component {
@@ -80,12 +80,17 @@ handleChange = value => {
     }
     return(
      <div className="App" style={whole}>
-      <Header />
+       <Footer />
       <div className="row mx-5 justify-content-center align-items-center y-5" >
+
+    
+
       <Upload uploadImage={this.state.uploadImage} 
                        originalLink={this.state.originalLink}
                        originalImage={this.state.originalImage} 
                        handle={this.handle} />
+
+
 
       <Compressor     outputFileName={this.state.outputFileName}
                        quality={this.state.quality} 

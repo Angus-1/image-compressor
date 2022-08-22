@@ -1,7 +1,7 @@
 
 #title
 {
-    color: #3fa199;
+    color: #3db9af;
     size:50px !important;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,7 @@
     border-radius: 4px;
 }
 code{
-    color:turquoise;
+    color:rgb(185, 189, 245);
     background-color: #1a1c20;
     position: static !important;
 }
