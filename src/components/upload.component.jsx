@@ -28,7 +28,7 @@ const Upload= (props)=>{
                   id="icons"
                   className="ht"
                   variant="top"
-                  src="https://www.flaticon.com/svg/static/icons/svg/3588/3588235.svg"
+                  src="https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image.png"
                 ></Card.Img>
               )}
                {props.originalImage ? (
