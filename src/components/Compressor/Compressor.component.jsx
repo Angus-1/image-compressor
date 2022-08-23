@@ -2,6 +2,7 @@ import React from 'react'
 import CircularSlider from '@fseehawer/react-circular-slider';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './CompressorStyle.css';
+import ReactSlider from "react-slider";
 
 import Card from "react-bootstrap/Card";
 var style={
@@ -46,25 +47,19 @@ const Compressor= (props)=>{
     return (
             <div >
             {props.outputFileName ? (
-             <div>
+             <div><ReactSlider
+             className="customSlider"
+             trackClassName="customSlider-track"
+             thumbClassName="customSlider-thumb"
+             min={0}
+             max={100}
+             value={props.quality}
+             onChange={props.handleInputChange}
+            />
             <div  className="col-xl-4 col-lg-4 col-md-12 col-sm-12 mt-3 p-10 ht mt-4 mr-5 justify-content-center align-item-center" style={style}>
              {props.outputFileName ? (
              <div style={styles.slider}>
-             <CircularSlider
-               label="Quality"
-               min={0}
-               max={100}
-               value={props.quality}
-               onChange={props.handleInputChange}
-               direction={1}
-               knobPosition='right'
-               knobColor='#144ce6'
-               valueFontSize='4rem'
-               labelColor='Gainsboro'
-               labelFontSize='20px'
-               progressColorFrom="#144ce6"
-               progressColorTo="#144ce6"
-             />
+             
               </div> 
               ):
               (<></>

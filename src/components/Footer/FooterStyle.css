@@ -1,12 +1,12 @@
 .footer{
   
   padding: 1rem;
-  margin-top: 50vh;
+  margin-top: 60vh;
   left: 0;
   background-color: #1F2937;
   width: 100%;
   position: absolute;
-  height: 17rem;
+  height: 25rem;
 }
 
 
@@ -47,4 +47,9 @@ font-size:2rem;
 }
 .socials a:hover i{
   color: aqua;
+}
+:root {
+  --main-color: rgb(104, 117, 217);
+  --main-color-hover: rgba(6, 35, 255, 0.2);
+  --track-color: #ddd;
 }
