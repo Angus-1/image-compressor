@@ -1,56 +1,21 @@
 import React from "react";
-import {
-  Box,
-  Container,
-  Row,
-  Column,
-  FooterLink,
-  Heading,
-} from "./FooterStyles";
-  
+import './FooterStyle.css';
+
+import github from './github.png';
+import gmail from './gmail.png';
+import linkedin from './linkedin.png';
 const Footer = () => {
   return (
-    <Box>
-      <h1 style={{ color: "#6B91A4", 
-                   textAlign: "center", 
-                   marginTop: "-50px" }}>
-        Angel Santoyo
-      </h1>
-      <Container>
-        <Row>
-          
-            <Heading>Contact</Heading>
-
-
-            <FooterLink href="https://github.com/Angus-1">
-              <i className="Github">
-                <span style={{ marginLeft: "10px" }}>
-                  Github
-                </span>
-              </i>
-            </FooterLink>
-
-
-            <FooterLink href="mailto:santoyox714@gmail.com">
-              <i className="Email">
-                <span style={{ marginLeft: "10px" }}>
-                  Email
-                </span>
-              </i>
-            </FooterLink>
-
-            <FooterLink href="https://www.linkedin.com/in/asantoyo/">
-              <i className="Linkedin">
-                <span style={{ marginLeft: "10px" }}>
-                  Linkedin
-                </span>
-              </i>
-            </FooterLink>
-            
-          
-        </Row>
-      </Container>
-    </Box>
+    <div className="footer">
+      <div className="footer-title">Angel Santoyo </div>
+      <div className="footer-subtitle">Feel free to check out my other projects or contact me below</div>
+    <div className="socials">
+                
+      <a href="mailto:santoyox714@gmail.com"><img src={github} alt="git" width="65px" /> </a>
+      <a href="mailto:santoyox714@gmail.com"><img src={gmail} alt="git" width="65px" /> </a>
+      <a href="mailto:santoyox714@gmail.com"><img src={linkedin} alt="git" width="65px" /> </a>
+    </div>
+  </div>
   );
 };
 export default Footer;
