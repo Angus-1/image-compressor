@@ -87,7 +87,9 @@ const Compressor= (props)=>{
           <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 p-5 m-10 ht mt-4" style={card}>
             {props.clicked ? (
               <div style={img}>
-              <Card.Img variant="top" src={props.compressedLink} className="card-img-top ht mt-4"  style={download}></Card.Img>
+              <Card.Img variant="top" 
+              src={props.compressedLink} className="card-img-top ht mt-4"  style={download}>
+              </Card.Img>
               <div id="kb" className="d-flex justify-content-center" style={kb}>
                 <h5>{Number((parseInt(props.outputImage.size, 10)/1024).toFixed(1))} KB</h5>
               </div>
