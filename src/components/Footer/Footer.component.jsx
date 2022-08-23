@@ -18,7 +18,7 @@ const Footer = () => {
       </h1>
       <Container>
         <Row>
-          <Column>
+          
             <Heading>Contact</Heading>
 
 
@@ -47,7 +47,7 @@ const Footer = () => {
               </i>
             </FooterLink>
             
-          </Column>
+          
         </Row>
       </Container>
     </Box>
