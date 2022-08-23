@@ -7,6 +7,7 @@ import linkedin from './linkedin.png';
 const Footer = () => {
   return (
     <footer>
+      
     <div className="footer">
       <div className="footer-title">Angel Santoyo </div>
       <div className="footer-subtitle">Feel free to check out my other projects or contact me below</div>
@@ -17,6 +18,7 @@ const Footer = () => {
       <a href="mailto:santoyox714@gmail.com"><img src={linkedin} alt="git" width="65px" /> </a>
     </div>
   </div>
+  
   </footer>
   );
 };
