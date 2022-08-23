@@ -47,19 +47,19 @@ const Compressor= (props)=>{
     return (
             <div >
             {props.outputFileName ? (
-             <div><ReactSlider
+             <div>
+            <div  className="col-xl-4 col-lg-4 col-md-12 col-sm-12 mt-3 p-10 ht mt-4 mr-5 justify-content-center align-item-center" style={style}>
+             {props.outputFileName ? (
+             <div style={styles.slider}>
+             <ReactSlider
              className="customSlider"
              trackClassName="customSlider-track"
              thumbClassName="customSlider-thumb"
              min={0}
              max={100}
              value={props.quality}
-             onChange={props.handleInputChange}
+            onChange={props.handleInputChange}
             />
-            <div  className="col-xl-4 col-lg-4 col-md-12 col-sm-12 mt-3 p-10 ht mt-4 mr-5 justify-content-center align-item-center" style={style}>
-             {props.outputFileName ? (
-             <div style={styles.slider}>
-             
               </div> 
               ):
               (<></>
