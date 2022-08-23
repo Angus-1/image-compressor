@@ -81,7 +81,7 @@ handleChange = value => {
     }
     return(
      <div className="App" style={whole}>
-       <Footer />
+  
       <div className="row mx-5 justify-content-center align-items-center y-5" >
 
     
@@ -102,6 +102,8 @@ handleChange = value => {
                        clicked={this.state.clicked} 
                        outputFileName={this.state.outputFileName} 
                       />
+
+      <Footer />
         </div>           
         </div> 
      );
