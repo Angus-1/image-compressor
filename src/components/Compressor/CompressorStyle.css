@@ -76,14 +76,11 @@ circle{
 
 
 
-  :root {
-    --main-color: rgb(104, 117, 217);
-    --main-color-hover: rgb(104, 117, 217, 0.2);
-    --track-color: rgb(221, 221, 221);
-  }
+
   
   .customSlider {
     /* max width of your slider */
+    min-width: 25rem;
     max-width: 35rem;
     /* Optional: Only If you want to center your slider in the page */
     margin: auto;
