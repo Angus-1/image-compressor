@@ -58,12 +58,12 @@ const Compressor= (props)=>{
                onChange={props.handleInputChange}
                direction={1}
                knobPosition='right'
-               knobColor='#2ec1ac'
+               knobColor='#144ce6'
                valueFontSize='4rem'
                labelColor='Gainsboro'
                labelFontSize='20px'
-               progressColorFrom="#00bfbd"
-               progressColorTo="#009c9a"
+               progressColorFrom="#144ce6"
+               progressColorTo="#144ce6"
              />
               </div> 
               ):
