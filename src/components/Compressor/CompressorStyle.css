@@ -73,43 +73,4 @@ circle{
     width: 100px !important;
   }
   
-  /* General sidebar styles */
-  .bm-menu {
-    background:#222831;
-    padding: 2.5em 1.5em 0;
-    font-size: 1.15em;
-    width: auto;
-  }
   
-  /* Morph shape necessary with bubble or elastic */
-  .bm-morph-shape {
-    fill: #373a47;
-  }
-  
-  /* Wrapper for item list */
-  .bm-item-list {
-    color: #b8b7ad;
-    padding: 0.8em;
-  }
-  
-  /* Individual item */
-  .bm-item {
-    display: inline-block;
-  }
-  
-  /* Styling of overlay */
-  .bm-overlay {
-    background: rgba(0, 0, 0, 0.3);
-  }
-  #slide{
-    width:"100px";
-  }
-  .GitHubIcon:hover{
-   color: turquoise;
-  }
-  .LinkedInIcon:hover{
-    color: turquoise;
-   }
-   .TwitterIcon:hover{
-    color: turquoise;
-   }
