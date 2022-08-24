@@ -13,9 +13,9 @@ const Footer = () => {
       <div className="footer-subtitle">Feel free to check out my other projects or contact me below</div>
     <div className="socials">
                 
-      <a href="mailto:santoyox714@gmail.com"><img src={github} alt="git" width="65px" /> </a>
+      <a href="https://github.com/Angus-1"><img src={github} alt="git" width="65px" /> </a>
       <a href="mailto:santoyox714@gmail.com"><img src={gmail} alt="git" width="65px" /> </a>
-      <a href="mailto:santoyox714@gmail.com"><img src={linkedin} alt="git" width="65px" /> </a>
+      <a href="https://www.linkedin.com/in/asantoyo/"><img src={linkedin} alt="git" width="65px" /> </a>
     </div>
   </div>
   
