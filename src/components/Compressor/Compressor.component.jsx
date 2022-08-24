@@ -64,8 +64,7 @@ const Compressor = (props) => {
             {props.outputFileName ? (
               <button type="button" className=" btn btn-dark"onClick={(e) => props.click(e)}style={title}>
                 Compress
-              </button>):(
-              <></>)}
+              </button>):(<></>)}
           </div>
 
           <div
@@ -90,9 +89,7 @@ const Compressor = (props) => {
                   Download
                 </a>
               </div>
-            ):(
-            <></>
-            )}
+            ):(<></>)}
           </div>
         </div>
       ):(
